@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dallanosm.icopendataapp">
+
+    <uses-library android:name="com.google.android.maps" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".querys.consulta1.DesfibriladoresYCentrosMedicosActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".querys.consulta2.RuidoSuperiorA70Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".querys.consulta3.PiscinasDiaDiarioParaMenoresActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".querys.consulta4.CapitulosMayorPresupuestoGastadoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".querys.consulta5.CentrosExposicionesConEnlaceOficialActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".querys.consulta6.MonumentosCercanosEn80MALaCruzActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".querys.consulta7.ParquesYContenedoresEnLaZonaDeLaMejostilla"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".querys.consulta8.ContenedoresQueNoSonDeVidrioActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+    </application>
+
+</manifest>

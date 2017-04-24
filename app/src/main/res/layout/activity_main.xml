@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="dallanosm.icopendataapp.MainActivity">
+
+    <Button
+        android:id="@+id/consulta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#64B5F6"
+        android:text="Desfibriladores y Centros sanitarios" />
+
+    <Button
+        android:id="@+id/consulta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#64B5F6"
+        android:text="Puntos con ruido mayor a 70db" />
+
+    <Button
+        android:id="@+id/consulta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#64B5F6"
+        android:text="Piscinas para menores un día de diario ordenadas por precio" />
+
+    <Button
+        android:id="@+id/consulta4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#64B5F6"
+        android:text="5 capítulos en los que se gastó mayor cuantía del presupuesto municipal en 2016." />
+
+    <Button
+        android:id="@+id/consulta5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#64B5F6"
+        android:text="Centro de exposiciones con enlace oficial" />
+
+    <Button
+        android:id="@+id/consulta6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#64B5F6"
+        android:text="Monumentos cercanos en 80m a la cruz" />
+
+    <Button
+        android:id="@+id/consulta7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#64B5F6"
+        android:text="Parques y contenedores en la zona de la Mejostilla" />
+
+    <Button
+        android:id="@+id/consulta8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#64B5F6"
+        android:text="Contenedores que no son de vidrio" />
+
+</LinearLayout>
